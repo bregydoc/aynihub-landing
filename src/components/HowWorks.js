@@ -12,7 +12,7 @@ const Wrapper = styled.div`
 
 const HowWorks = props => {
   return (
-    <Wrapper>
+    <Wrapper id={props.id}>
       <Flex
         flexWrap="wrap"
         color="white"
@@ -34,9 +34,9 @@ const HowWorks = props => {
         <Box width={[3 / 4, 1 / 3, 1 / 3]} mr={[0, 0, 50]}>
           <Image width={[1, 1, 1]} src={image} />
         </Box>
-        <Box width={[1, 1 / 3, 1 / 4]}>
+        <Box width={[1, 3 / 5, 1 / 4]}>
           <Text
-            fontSize={[2, 2, "1em"]}
+            fontSize={[2, "1em", "1em"]}
             fontWeight={200}
             color="white"
             textAlign={["center", "center", "center"]}
@@ -44,9 +44,12 @@ const HowWorks = props => {
             px={[20, 40, 0]}
             py={[40, 30, 0]}
           >
-            The world has become so fast paced that people don’t want to stand
-            by reading a page of information, they would much rather look at a
-            presentation.
+            El equipo AYNIHUB dará todos los medios y facilidades necesarios
+            para que la comunidad tenga el poder de trabajar en conjunto con los
+            proyectos propuestos, dando facilidades financieras y creativas. En
+            AYNIHUB creemos que el apoyo en comunidad y las ganas de hacer una
+            sociedad mejor, son dos pilares fundamentales para el desarrollo
+            humano.
           </Text>
         </Box>
         <Box width={[1, 1, 1]} mt={[0, 20, 50]}>

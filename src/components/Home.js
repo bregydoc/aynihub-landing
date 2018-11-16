@@ -13,7 +13,7 @@ const Wrapper = styled.div`
 
 const Home = props => {
   return (
-    <Wrapper>
+    <Wrapper id={props.id}>
       <Flex
         flexWrap="wrap"
         color="white"
@@ -21,11 +21,11 @@ const Home = props => {
         alignItems="center"
         justifyContent="center"
       >
-        <Box width={[1, 1 / 2, 1 / 2]} mt={[-50, 0, -30]}>
+        <Box width={[1, 1 / 2, 1 / 2]} mt={[-50, 0, -70]}>
           <Image ml={[0, 0, -200, -300]} width={[1, 1, 1]} src={image} />
         </Box>
 
-        <Box width={[1, 1 / 3, 1 / 4]} mt={[-50, 0, -50]} ml={[0, 0, -100]}>
+        <Box width={[1, 1 / 3, 1 / 4]} mt={[-50, 0, -90]} ml={[0, 0, -100]}>
           <Text
             fontSize={[6, 7, 7]}
             fontWeight={500}
@@ -61,7 +61,7 @@ const Home = props => {
             </Button>
           </Box> */}
         </Box>
-        <Box width={[1, 1, 1]} mt={[0, -50, -100]}>
+        <Box width={[1, 1, 1]} mt={[0, -50, -200]}>
           <Button
             my={[20, 30, 30]}
             py={[15, 15, 15]}
@@ -76,7 +76,7 @@ const Home = props => {
           </Button>
         </Box>
       </Flex>
-      <Text mt={[20, 20, 20]}>
+      <Text mt={[20, 20, 0]}>
         <ArrowBottom size={30} />
       </Text>
     </Wrapper>

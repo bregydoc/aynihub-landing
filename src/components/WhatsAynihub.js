@@ -12,7 +12,7 @@ const Wrapper = styled.div`
 
 const WhatsAynihub = props => {
   return (
-    <Wrapper>
+    <Wrapper id={props.id}>
       <Flex
         flexWrap="wrap"
         color="white"
@@ -32,18 +32,20 @@ const WhatsAynihub = props => {
           </Text>
         </Box>
 
-        <Box width={[1, 1 / 3, 1 / 4]} mr={[0, 0, 50]}>
+        <Box width={[1, 3 / 5, 1 / 4]} mr={[0, 0, 50]}>
           <Text
-            fontSize={[2, 2, "1em"]}
+            fontSize={[2, "1em", "1em"]}
             fontWeight={200}
             color="white"
             textAlign={["center", "center", "center"]}
             fontFamily="'Nunito Sans', sans-serif"
-            px={[20, 40, 0]}
+            px={[20, 20, 0]}
           >
-            The world has become so fast paced that people don’t want to stand
-            by reading a page of information, they would much rather look at a
-            presentation.
+            AYNIHUB es la primera plataforma dedicada al crecimiento y
+            financiamiento en trabajos de investigación en Perú. Aquí podrás
+            encontrar una manera fácil y sencilla de ayudar a la comunidad
+            científica y a su vez, promover el desarrollo tecnológico, el cual
+            es parte fundamental del crecimiento humano.
           </Text>
         </Box>
         <Box width={[3 / 4, 1 / 3, 1 / 3]}>
