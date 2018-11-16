@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { LastLocationProvider } from "react-router-last-location";
-import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import "./App.css";
 import HomePage from "./pages/Home";
 

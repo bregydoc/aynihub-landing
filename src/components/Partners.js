@@ -1,5 +1,4 @@
 import React from "react";
-import styled from "styled-components";
 import background from "../images/linescrossover.png";
 import elparadero from "../images/el-paradero.png";
 import { Card, Heading, Image } from "rebass";

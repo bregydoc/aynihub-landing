@@ -45,8 +45,8 @@ const LogoIcon = props => {
           y2="60.5398949%"
           id="linearGradient-5"
         >
-          <stop stop-color="#1A4A88" offset="0%" />
-          <stop stop-color="#48CCE8" offset="100%" />
+          <stop stopColor="#1A4A88" offset="0%" />
+          <stop stopColor="#48CCE8" offset="100%" />
         </linearGradient>
         <linearGradient
           x1="80.4694371%"
@@ -55,8 +55,8 @@ const LogoIcon = props => {
           y2="30.2243646%"
           id="linearGradient-6"
         >
-          <stop stop-color="#194985" offset="0%" />
-          <stop stop-color="#45CDE8" offset="100%" />
+          <stop stopColor="#194985" offset="0%" />
+          <stop stopColor="#45CDE8" offset="100%" />
         </linearGradient>
         <linearGradient
           x1="100%"
@@ -65,17 +65,17 @@ const LogoIcon = props => {
           y2="97.3034274%"
           id="linearGradient-7"
         >
-          <stop stop-color="#3880BB" offset="0%" />
-          <stop stop-color="#47CFEA" offset="100%" />
+          <stop stopColor="#3880BB" offset="0%" />
+          <stop stopColor="#47CFEA" offset="100%" />
         </linearGradient>
       </defs>
       <g id="Aynihub-Copy-8">
-        <use fill="black" fill-opacity="1" filter="url(#filter-2)" />
-        <use fill="#92E9FF" fill-rule="evenodd" />
+        <use fill="black" fillOpacity="1" filter="url(#filter-2)" />
+        <use fill="#92E9FF" fillRule="evenodd" />
       </g>
 
       <g id="Group-6">
-        <g id="Mask" fill-rule="nonzero" />
+        <g id="Mask" fillRule="nonzero" />
         <polygon
           id="Path-6"
           fill="url(#linearGradient-5)"

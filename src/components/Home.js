@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import styled from "styled-components";
 import image from "../images/communityandinvestigation.png";
 import { Flex, Text, Box, Image, Button } from "rebass";
@@ -46,7 +46,7 @@ const Home = props => {
             Un espacio para la libre integración del conocimiento colectivo a
             través del financiamiento cooperativo.
           </Text>
-          <Box width={["0px", "0px", 1]} mt={[0, 20, 50]}>
+          {/* <Box width={["0px", "0px", 1]} mt={[0, 20, 50]}>
             <Button
               my={[20, 30, 30]}
               py={[15, 15, 15]}
@@ -59,9 +59,9 @@ const Home = props => {
             >
               CONOCE MÁS
             </Button>
-          </Box>
+          </Box> */}
         </Box>
-        <Box width={[1, 1, "0px"]} mt={[0, 20, 50]}>
+        <Box width={[1, 1, 1]} mt={[0, -50, -100]}>
           <Button
             my={[20, 30, 30]}
             py={[15, 15, 15]}
@@ -76,7 +76,7 @@ const Home = props => {
           </Button>
         </Box>
       </Flex>
-      <Text mt={[0, 0, -50]}>
+      <Text mt={[20, 20, 20]}>
         <ArrowBottom size={30} />
       </Text>
     </Wrapper>
