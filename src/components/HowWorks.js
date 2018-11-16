@@ -61,8 +61,8 @@ const HowWorks = props => {
             bg="#6B5EFF"
             fontWeight={400}
             color="white"
-            fontFamily="'Saira Condensed', sans-serif"
-            fontSize={[2, 2, 2]}
+            fontFamily="Saira Condensed"
+            fontSize={[3, 3, 3]}
           >
             EXPLORA
           </Button>

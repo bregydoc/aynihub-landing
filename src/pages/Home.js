@@ -5,7 +5,7 @@ import Partners from "../components/Partners";
 import WhatsAynihub from "../components/WhatsAynihub";
 import HowWorks from "../components/HowWorks";
 import Opportunity from "../components/Opportunity";
-import Subscribe from "../components/Subscribe";
+// import Subscribe from "../components/Subscribe";
 import Footer from "../components/Footer";
 
 class HomePage extends Component {
@@ -20,7 +20,7 @@ class HomePage extends Component {
         <WhatsAynihub id="howweare" />
         <HowWorks id="howworks" />
         <Opportunity id="opportunity" />
-        <Subscribe id="subscribe" />
+        {/*<Subscribe id="subscribe" />*/}
         <Footer id="footer" />
       </div>
     );

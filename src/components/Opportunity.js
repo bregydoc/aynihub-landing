@@ -46,20 +46,20 @@ const Opportunity = props => {
             letterSpacing={1}
           >
             Aquí en AYNIHUB te daremos todo el apoyo necesario para que puedas
-            presentar tu proyecto al mundo. Solo necesitas las una idea y listo,
+            presentar tu proyecto al mundo. Solo necesitas una idea y listo,
             estás a bordo. ¿Tienes lo necesario?
           </Text>
         </Box>
         <Box width={[1, 1, 1]} mt={[0, 20, 50]}>
           <Button
             my={[20, 30, 30]}
-            py={[15, 15, 15]}
-            px={[50, 60, 50]}
+            py={[10, 10, 10]}
+            px={[40, 50, 40]}
             bg="#50F1BB"
             fontWeight={400}
             color="white"
-            fontFamily="'Saira Condensed', sans-serif"
-            fontSize={[2, 2, 2]}
+            fontFamily="Saira Condensed"
+            fontSize={[3, 3, 3]}
           >
             CREA UN PROYECTO
           </Button>

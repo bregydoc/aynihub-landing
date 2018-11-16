@@ -64,13 +64,13 @@ const Home = props => {
         <Box width={[1, 1, 1]} mt={[0, -50, -200]}>
           <Button
             my={[20, 30, 30]}
-            py={[15, 15, 15]}
-            px={[50, 60, 50]}
+            py={[10, 10, 10]}
+            px={[40, 50, 40]}
             bg="#F9554E"
             fontWeight={400}
             color="white"
             fontFamily="Saira Condensed"
-            fontSize={[2, 2, 2]}
+            fontSize={[3, 3, 3]}
           >
             CONOCE MÁS
           </Button>
