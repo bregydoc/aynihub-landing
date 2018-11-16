@@ -22,15 +22,15 @@ const Footer = props => {
           ml={2}
           pr={4}
           letterSpacing={1}
-          fontWeight={"300"}
+          fontWeight={300}
         >
           Aynihub está en desarrollo, si tienes alguna idea de lo que quisieras
           ver en Aynihub, no dudes en contactarnos.
         </Text>
-        <Text fontFamily={"Nunito Sans"} py={3} ml={2} letterSpacing={1}>
+        <Text fontFamily={"Nunito Sans"} py={3} ml={2} letterSpacing={1} fontWeight={300}>
           +51957821858
         </Text>
-        <Text fontFamily={"Nunito Sans"} py={3} ml={2} letterSpacing={1}>
+        <Text fontFamily={"Nunito Sans"} py={3} ml={2} letterSpacing={1} fontWeight={300}>
           bregy.malpartida@utec.edu.pe
         </Text>
       </Box>
