@@ -27,7 +27,7 @@ const Home = props => {
         ¿QUIÉNES CONFÍAN EN NOSOTROS?
       </Heading>
       <Box width={[1, 1, 1]} py={[150, 150, 150]}>
-        <BioGeniaCorp size={50} />
+        <BioGeniaCorp size={40} />
       </Box>
 
       {/* <Image width={[1 / 2, 1 / 3, 1 / 4]} src={elparadero} /> */}

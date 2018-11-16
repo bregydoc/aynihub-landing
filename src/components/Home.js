@@ -69,7 +69,7 @@ const Home = props => {
             bg="#F9554E"
             fontWeight={400}
             color="white"
-            fontFamily="'Saira Condensed', sans-serif"
+            fontFamily="Saira Condensed"
             fontSize={[2, 2, 2]}
           >
             CONOCE MÁS
