@@ -53,7 +53,7 @@ const Toolbar = props => {
             fontWeight: "300"
           }}
         >
-          COMO FUNCIONA
+          CÓMO FUNCIONA
         </Link>
         <Link
           href="#howweare"
@@ -68,14 +68,14 @@ const Toolbar = props => {
             fontWeight: "300"
           }}
         >
-          QUIENES SOMOS
+          QUIÉNES SOMOS
         </Link>
-        <Link
+        {/* <Link
           href="#subscribe"
           p={3}
           px={[1, 2, 4]}
           color="white"
-          fontSize={["0px", 2, 3, 3]}
+          fontSize={[2, 2, 3, 3]}
           {...props}
           css={{
             display: "block",
@@ -83,8 +83,8 @@ const Toolbar = props => {
             fontWeight: "300"
           }}
         >
-          CONTACTANOS
-        </Link>
+          CONTÁCTANOS
+        </Link> */}
       </Flex>
     </Wrapper>
   );
