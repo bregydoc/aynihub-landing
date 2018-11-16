@@ -24,7 +24,7 @@ const Footer = props => {
           letterSpacing={1}
           fontWeight={300}
         >
-          Aynihub está en desarrollo, si tienes alguna idea de lo que quisieras
+          Estamos en desarrollo, si tienes alguna idea de lo que quisieras
           ver en Aynihub, no dudes en contactarnos.
         </Text>
         <Text fontFamily={"Nunito Sans"} py={3} ml={2} letterSpacing={1} fontWeight={300}>
