@@ -40,9 +40,10 @@ const Opportunity = props => {
             fontWeight={200}
             color="white"
             textAlign={["center", "center", "center"]}
-            fontFamily="'Nunito Sans', sans-serif"
+            fontFamily="Nunito Sans"
             px={[20, 40, 0]}
             py={[40, 30, 0]}
+            letterSpacing={1}
           >
             Aquí en AYNIHUB te daremos todo el apoyo necesario para que puedas
             presentar tu proyecto al mundo. Solo necesitas las una idea y listo,

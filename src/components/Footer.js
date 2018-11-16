@@ -17,7 +17,7 @@ const Footer = props => {
     <Box width={[1, 1/3]} p={2}>
       <Image width={[0.3]} src={miniAyni}/>
       <Text fontFamily={"Nunito Sans"}  py={3} ml={2} pr={4} letterSpacing={1} fontWeight={"300"}>
-        Aynihub está en desarrollo, si tienes alguna idea de lo que quisieras ver en Aynihub, no dudes en contactarnos
+        Aynihub está en desarrollo, si tienes alguna idea de lo que quisieras ver en Aynihub, no dudes en contactarnos.
       </Text>
       <Text fontFamily={"Nunito Sans"}  py={3} ml={2} letterSpacing={1}>
         +51957821858

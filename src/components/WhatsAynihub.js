@@ -38,8 +38,9 @@ const WhatsAynihub = props => {
             fontWeight={200}
             color="white"
             textAlign={["center", "center", "center"]}
-            fontFamily="'Nunito Sans', sans-serif"
+            fontFamily="Nunito Sans"
             px={[20, 20, 0]}
+            letterSpacing={1}
           >
             AYNIHUB es la primera plataforma dedicada al crecimiento y
             financiamiento en trabajos de investigación en Perú. Aquí podrás

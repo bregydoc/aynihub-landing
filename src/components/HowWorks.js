@@ -40,9 +40,10 @@ const HowWorks = props => {
             fontWeight={200}
             color="white"
             textAlign={["center", "center", "center"]}
-            fontFamily="'Nunito Sans', sans-serif"
+            fontFamily="Nunito Sans"
             px={[20, 40, 0]}
             py={[40, 30, 0]}
+            letterSpacing={1}
           >
             El equipo AYNIHUB dará todos los medios y facilidades necesarios
             para que la comunidad tenga el poder de trabajar en conjunto con los
